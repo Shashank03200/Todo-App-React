@@ -33,7 +33,7 @@ const TodoList = () => {
                  <ol>
                      {newitem.map((val, index) => {
                         return <ListComponent key={index} text={val}/>;
-                     })};
+                     })}
                  </ol>
               </div>
           </div>
